@@ -9,28 +9,28 @@ jogando = True
 
 # ICONE E NOME
 pygame.display.set_caption('Pescador')  # Nome da aba
-icon = pygame.image.load('P.png')  # Importa a imagem de icone
+icon = pygame.image.load('assets/P.png')  # Importa a imagem de icone
 pygame.display.set_icon(icon)  # Coloca o icone na janela
 
 # IMAGEM FUNDO AMAZONIA
-FundoC = pygame.image.load('FundoCompleto.png')  # Imagem Fundo da Amazonia
+FundoC = pygame.image.load('assets/FundoCompleto.png')  # Imagem Fundo da Amazonia
 screen.blit(FundoC, (0, 0))  # Coloca a imagem na tela
 
 # IMAGEM BARCO NORMAL
 # BarcoN = pygame.image.load('Barco.png')  # Imagem barco
 
 # IMAGEM BARCO LINHA
-BarcoL = pygame.image.load('BarcoLinha.png')  # Imagem barco linha
+BarcoL = pygame.image.load('assets/BarcoLinha.png')  # Imagem barco linha
 
 # IMAGEM BARCO PEIXE
-BarcoP = pygame.image.load('BarcoPeixe.png')  # Imagem barco peixe
+BarcoP = pygame.image.load('assets/BarcoPeixe.png')  # Imagem barco peixe
 
 # IMAGEM PESCAR
-BotaoP = pygame.image.load('BotãoP2.png')  # Imagem botão pescar
+BotaoP = pygame.image.load('assets/BotãoP2.png')  # Imagem botão pescar
 #screen.blit(BotaoP, (840, 340))
 
 # IMAGEM PEIXE PEGO
-peixe_pego = pygame.image.load('PeixePego.png')  # Imagem peixe pego
+peixe_pego = pygame.image.load('assets/PeixePego.png')  # Imagem peixe pego
 
 clock = pygame.time.Clock()
 
