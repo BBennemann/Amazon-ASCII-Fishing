@@ -1,74 +1,74 @@
-# Amazon ASCII Fishing 🎣
+# Amazon ASCII Fishing
 
-## About the Project
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2.5.2-green?style=for-the-badge&logo=pygame)](https://www.pygame.org/)
 
-**Amazon ASCII Fishing** is a small game developed in Python using the **Pygame** library.  
-It simulates fishing in the Amazon region with a minimalist visual style inspired by **ASCII art**.
+![Imagem do Jogo](assets/FundoCompleto.png)
 
----
+## About The Project
 
-## Tools Used
+**Amazon ASCII Fishing** is a fishing game prototype created as a personal project born from a passion for games and fishing. It features a distinct ASCII art style, inspired by games like *Stone Story RPG*.
 
-- **Python 3**
-- **Pygame**
-- ASCII-style visuals
-- Custom images and buttons stored in the `assets` folder
+This application was built with:
+* **Python**
+* **Pygame** for rendering, game logic, and event handling.
 
----
+This project was a learning exercise and is no longer in active development.
 
-## Visual Assets
+## Project Structure
 
-All images used in the game (background, boat, fish, buttons, etc.) are stored inside the `assets` folder.  
-This keeps the graphical content organized and easy to maintain or customize.
+The repository is organized as follows:
 
----
+```
+.
+├── assets/                   # Contains game assets like images and sounds.
+├── JogoFinal.py                   # The main script to run the game.
+└── requirements.txt          # A list of all necessary Python packages.
+```
 
-# How to Run
+## Getting Started
 
-## Install dependencies
-pip install pygame
+To get a local copy up and running, follow these simple steps.
 
-# Run the game
-python main.py
+### Pre-requisites
 
-## Notes
+Make sure you have the following installed on your system:
+* Python 3.9 or higher
+* pip
 
-This is an educational and experimental project. Feel free to contribute, suggest improvements, or customize the game as you like.
-Made with curiosity and care. 😊
+### Installation
 
----
-# Amazon ASCII Fishing 🎣
+1.  Clone the repository to your local machine.
+    ```bash
+    git clone https://github.com/BBennemann/Amazon-ASCII-Fishing.git
+    ```
 
-## Sobre o Projeto
+2.  Navigate to the project directory.
+    ```bash
+    cd Amazon-ASCII-Fishing
+    ```
+3.  It is highly recommended to create and activate a virtual environment.
+    ```bash
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
 
-**Amazon ASCII Fishing** é um pequeno jogo desenvolvido em Python com a biblioteca **Pygame**.  
-O jogo simula uma pescaria na região amazônica, utilizando uma estética visual simples inspirada em **arte ASCII**.
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+4.  Install the required packages.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
----
+## Usage Instructions
 
-## Tecnologias Utilizadas
+To play the game, simply run the `JogoFinal.py` script from your terminal:
 
-- **Python 3**
-- **Pygame**
-- Estilo visual baseado em arte ASCII
-- Imagens e botões personalizados armazenados na pasta `assets`
+```bash
+python JogoFinal.py
+```
+## Contributors
 
----
-
-## Recursos Visuais
-
-Todas as imagens utilizadas no jogo (como fundo, barco, peixes e botões) estão localizadas dentro da pasta `assets`.  
-Isso mantém o conteúdo gráfico organizado e fácil de manter ou personalizar.
-
----
-
-## Como Executar
-
-# Instale as dependências
-pip install pygame
-
-# Execute o jogo
-python main.py
-
-## Observações
-Este é um projeto educacional e experimental. Sinta-se à vontade para contribuir, sugerir melhorias ou personalizar o jogo como preferir.
+* **Bernardo Thomas Bennemann** - *Project Owner* - [BBennemann](https://github.com/BBennemann)
